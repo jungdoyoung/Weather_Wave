@@ -30,7 +30,7 @@ namespace Weather.Method
 
         public void Find(string path, ProgressBar progressBar, Label lblTotalCount, Label lblIngCount, RichTextBox richTextBox) {
             Monitor.Enter(obj);
-            
+            var aa = 0;
             try
             {
                 this.Progress = progressBar;
