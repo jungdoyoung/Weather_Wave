@@ -37,7 +37,7 @@ namespace Weather.Method
                 this.lblTotalCount = lblTotalCount;
                 this.lblIngCount = lblIngCount;
                 this.richTextBox = richTextBox;
-
+                
 
                 if (Directory.Exists(path)) //폴더경로가 있는것만
                 {
